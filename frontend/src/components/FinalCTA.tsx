@@ -24,7 +24,7 @@ export function FinalCTA() {
     if (email && email.includes("@")) {
   
       try {
-        const apiUrl = import.meta.env.VITE_PUBLIC_API_URL || 'http://localhost:3001';
+        const apiUrl = import.meta.env.VITE_PUBLIC_API_URL || '';
         const response = await fetch(`${apiUrl}/api/subscribe`, {
           method: "POST",
           headers: {
