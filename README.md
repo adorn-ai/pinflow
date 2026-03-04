@@ -1,2 +1,11 @@
-# pinflow
-Pinflow, a Pinterest content and marketing agent that creates, schedules pins for you for 30 days, in just 5 minutes
+
+  # Design System SaaS Landing Page
+
+  This is a code bundle for Design System SaaS Landing Page. The original project is available at https://www.figma.com/design/loxn0bCGTtWF2zRSGQwmeI/Design-System-SaaS-Landing-Page.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
