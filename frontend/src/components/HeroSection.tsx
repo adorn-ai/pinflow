@@ -22,9 +22,7 @@ export function HeroSection() {
     e.preventDefault();
     if (email && email.includes("@")) {
       try {
-        const apiUrl =
-          import.meta.env.VITE_PUBLIC_API_URL || "http://localhost:3001";
-        const response = await fetch(`${apiUrl}/api/subscribe`, {
+        const response = await fetch(`/api/subscribe`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
